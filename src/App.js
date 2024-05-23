@@ -18,7 +18,7 @@ function App() {
           <li>
             <a
               className="Page-name"
-              style={{textAlign: 'center'}}
+              style={{ textAlign: 'center' }}
               href="#bag-styles"
               rel="noopener noreferrer"
             >
@@ -39,9 +39,9 @@ function App() {
       <main>
         <div className="Container">
           <h1 className="Title1">Essential bag is essential in name, form, & function <span>for nurses</span>.</h1>
-          <img 
+          <img
             src={decoration1}
-            style={{paddingTop: "1%", paddingRight: "5%"}}>
+            style={{ paddingTop: "1%", paddingRight: "5%" }}>
           </img>
           <div className="Rumii-bag"></div>
           <div className='Ellipses'></div>
@@ -62,10 +62,10 @@ function App() {
 
         <div className="Container">
           <div className="Row">
-              <img
-                className="col-imgs"
-                src={rumiigif}>
-              </img>
+            <img
+              className="col-imgs"
+              src={rumiigif}>
+            </img>
           </div>
         </div>
 
@@ -73,16 +73,16 @@ function App() {
           <div className="Row">
             <div className="essentials-col1">
               <h2 className="Sub-title">All of the essentials for the <span>essential worker</span></h2>
-              <p 
+              <p
                 className="Description"
-                style={{textAlign: "left"}}>
+                style={{ textAlign: "left" }}>
                 Maintain your stride uninterrupted as you tend to patients,
                 equipped with all your essential tools securely stored at your waist. This bag effortlessly
                 accommodates everything you require for the task at hand.
               </p>
-              <p 
+              <p
                 className="Description"
-                style={{textAlign: "left"}}>
+                style={{ textAlign: "left" }}>
                 Read more
               </p>
             </div>
@@ -102,16 +102,16 @@ function App() {
             </div>
             <div className="essentials-col2">
               <h2 className="Sub-title">All of the essentials for the <span>essential worker</span></h2>
-              <p 
+              <p
                 className="Description"
-                style={{textAlign: "left"}}>
+                style={{ textAlign: "left" }}>
                 Maintain your stride uninterrupted as you tend to patients,
                 equipped with all your essential tools securely stored at your waist. This bag effortlessly
                 accommodates everything you require for the task at hand.
               </p>
-              <p 
+              <p
                 className="Description"
-                style={{textAlign: "left"}}>
+                style={{ textAlign: "left" }}>
                 Read more
               </p>
             </div>
@@ -120,7 +120,7 @@ function App() {
 
         <div className="Container">
           <h1 id='bag-styles' className="Title3">Express <span>your</span> style</h1>
-          
+
           <BgComponent bagName="Night Shift" bgColor="bg1" productId='1'>
             Fits all occasions, goes with any outfit for any season
           </BgComponent>
@@ -210,13 +210,13 @@ function App() {
             </div>
           </div>
           */}
-          
+
         </div>
 
         <div className='reviews-cont'>
           <div className="Title4">Nurses <span>love</span> us</div>
           <div className='quote-box'>
-            <img 
+            <img
               className='comma1'
               src={comma}>
             </img>
@@ -230,12 +230,12 @@ function App() {
               many compliments. It’s also very nice to be able to wipe
               it down after ever shift.
             </p>
-            <img 
+            <img
               className='comma2'
               src={comma}>
             </img>
           </div>
-          <img 
+          <img
             className='reviews-img'
             src={reviews}>
           </img>
