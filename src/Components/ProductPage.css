@@ -1,0 +1,158 @@
+.App {
+    text-align: center;
+    height: 100%;
+    background: #FDF8EC;
+    overflow-x: hidden;
+}
+
+.App-header {
+    background: #FDF8EC;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    column-gap: 55%;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.back-button {
+    position: absolute;
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: "Satoshi Variable";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 164.286% */
+    left: 125px;
+}
+
+.arrow2 {
+    position: absolute;
+    top: 50%;
+    rotate: 180deg;
+    transform: translateY(-50%);
+    right: 5px;
+}
+
+a p {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-60%);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.prod-head {
+    font-family: "Climate Crisis";
+    text-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 75px;
+}
+
+.prod-head img {
+    width: fit-content;
+    height: 100px;
+    color: black;
+}
+
+.Section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    max-width: 100% !important;
+    width: auto;
+    padding: 0 24px;
+}
+
+.prod-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.product-col1 {
+    flex: none;
+    width: 58.33333%;
+    padding: 0 12px;
+}
+
+.media-viewer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.media-container {
+    width: calc(50% - 2.5px);
+    height: auto;
+    cursor: pointer;
+    padding: .3125rem;
+    box-sizing: border-box;
+}
+
+.media-container img {
+    width: 100%;
+    border: solid 1px gray;
+}
+
+.product-col2 {
+    position: sticky;
+    height: auto;
+    top: 100px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 5px;
+    flex: 1; /* Allows it to take remaining space */
+    max-width: 41.66667%;
+}
+
+.details-header-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.product-title-container {
+    width: 100%;
+}
+
+.product-title {
+    font-family: "Satoshi Variable";
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product-price-container {
+    width: 100%;
+    line-height: 1;
+    color: #000;
+    text-align: right;
+}
+
+.product-col2 .product-price {
+    font-family: "Satoshi";
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+
