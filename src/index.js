@@ -13,7 +13,7 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router /* basename={process.env.PUBLIC_URL} */ >
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path="/product/:productId" element={<ProductFetcher />} />

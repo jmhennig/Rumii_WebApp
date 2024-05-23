@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rumii_WebApp/static/css/main.3337d352.css",
-    "main.js": "/Rumii_WebApp/static/js/main.3eac6ff0.js",
+    "main.js": "/Rumii_WebApp/static/js/main.c9be4cf5.js",
     "static/js/787.dd5c6956.chunk.js": "/Rumii_WebApp/static/js/787.dd5c6956.chunk.js",
     "static/media/rumii-gif.gif": "/Rumii_WebApp/static/media/rumii-gif.4c6569b047257412a9f9.gif",
     "static/media/boost.png": "/Rumii_WebApp/static/media/boost.57bfca55cd27bcd9b465.png",
@@ -22,11 +22,11 @@
     "index.html": "/Rumii_WebApp/index.html",
     "static/media/Arrow.svg": "/Rumii_WebApp/static/media/Arrow.a0191fa93dbdfc1af37a4e2c980a53b4.svg",
     "main.3337d352.css.map": "/Rumii_WebApp/static/css/main.3337d352.css.map",
-    "main.3eac6ff0.js.map": "/Rumii_WebApp/static/js/main.3eac6ff0.js.map",
+    "main.c9be4cf5.js.map": "/Rumii_WebApp/static/js/main.c9be4cf5.js.map",
     "787.dd5c6956.chunk.js.map": "/Rumii_WebApp/static/js/787.dd5c6956.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3337d352.css",
-    "static/js/main.3eac6ff0.js"
+    "static/js/main.c9be4cf5.js"
   ]
 }
